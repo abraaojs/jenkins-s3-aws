@@ -1,6 +1,6 @@
 def bucket='stgdatagate.superbid.net'
 
-node('slaves'){
+node {
     stage('Checkout'){
         checkout scm
     }
